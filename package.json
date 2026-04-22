@@ -1,0 +1,22 @@
+{
+  "name": "taixiu-ai-server",
+  "version": "1.0.0",
+  "description": "Server Tài Xỉu AI realtime (có dự đoán + thống kê + stream)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:vn": "chcp 65001 && node index.js"
+  },
+  "keywords": ["taixiu", "ai", "realtime", "express"],
+  "author": "you",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
